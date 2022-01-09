@@ -3,7 +3,7 @@
 **this repo is to generate boilerplate code for all codebases currently supporting :**
 
 - react ( _rfc )
-- nodejs ( controler , model , route )
+- nodeModule ( controler, route, model  )
 - solidity ( class with compiler >=0.5.0 <0.8.0 )
 
 to use this repo steps are :
