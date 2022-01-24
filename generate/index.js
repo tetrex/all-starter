@@ -26,17 +26,17 @@ exports.nodeModule = {
 		return [
 			{
 				type: "add",
-				path: "../nodejs-backend/src/nodeModule/{{pascalCase name}}/{{pascalCase name}}.controller.ts",
+				path: "../nodejs-backend/src/Modules/{{pascalCase name}}/{{pascalCase name}}.controller.ts",
 				templateFile: "./generate/templates/nodeModule/controller.hbs",
 			},
 			{
 				type: "add",
-				path: "../nodejs-backend/src/nodeModule/{{pascalCase name}}/{{pascalCase name}}.model.ts",
+				path: "../nodejs-backend/src/Modules/{{pascalCase name}}/{{pascalCase name}}.model.ts",
 				templateFile: "./generate/templates/nodeModule/model.hbs",
 			},
 			{
 				type: "add",
-				path: "../nodejs-backend/src/nodeModule/{{pascalCase name}}/{{pascalCase name}}.route.ts",
+				path: "../nodejs-backend/src/Modules/{{pascalCase name}}/{{pascalCase name}}.route.ts",
 				templateFile: "./generate/templates/nodeModule/routes.hbs",
 			},
 		];

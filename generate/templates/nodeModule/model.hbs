@@ -1,10 +1,15 @@
 import mongoose from "mongoose";
 
-const {{pascalCase name}} = new mongoose.Schema(
+export interface I{{pascalCase name}} extends mongoose.Document {
+
+  };
+const {{pascalCase name}}Schema = new mongoose.Schema(
 	{
 
 	},
 	{ timestamps: true }
 );
 
-export default mongoose.model("{{pascalCase name}}", {{pascalCase name}});
+const {{pascalCase name}}= mongoose.model<I{{pascalCase name}}>("{{pascalCase name}}", {{pascalCase name}}Schema);
+export default {{pascalCase name}};
+
