@@ -235,6 +235,12 @@ exports.nextJsWithScss = {
 				templateFile:
 					"./generate/templates/nextJsWithScss/components/Test/Test.module.scss.hbs",
 			},
+			{
+				type: "add",
+				path: "../nextjs-client/components/styles/globals.scss",
+				templateFile:
+					"./generate/templates/nextJsWithScss/components/styles/globals.scss.hbs",
+			},
 		];
 	},
 };
