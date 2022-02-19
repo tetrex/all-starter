@@ -239,7 +239,7 @@ exports.nextJsWithScss = {
 				type: "add",
 				path: "../nextjs-client/components/styles/globals.scss",
 				templateFile:
-					"./generate/templates/nextJsWithScss/components/styles/globals.scss.hbs",
+					"./generate/templates/nextJsWithScss/styles/globals.scss.hbs",
 			},
 		];
 	},
